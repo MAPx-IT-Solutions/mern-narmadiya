@@ -1,0 +1,21 @@
+.headContainer{
+    background-image: url('../img/bannerimage.png');
+    height :450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headContainerSpan{
+    color: crimson;
+    font-size: 22px;
+}
+.headerLink, .headerLink:hover, .headerLink:focus{
+    text-decoration: none;
+    font-size: 50px;
+    color: #7c561e;
+    font-weight: 800;
+}

@@ -1,0 +1,23 @@
+.navMenu{
+    background-color: #deb887;
+    background-image: linear-gradient(to bottom right, #ff8100, #efff00);
+    padding: 0;
+}
+.navLinks{
+    color: rgba(0,0,0,.5);
+    margin-left: 50px;
+    padding: 12px;
+    color: white !important;
+    font-weight: 500;
+}
+.navLinks:hover{
+    background-color: darkorange;
+    color: white !important;
+}   
+.dropdown{
+    background: #FBBB00;
+}
+.itemHasSatDownDown:hover .dropdown{
+    display: block;
+    position: absolute;
+}

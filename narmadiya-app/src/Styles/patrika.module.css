@@ -1,0 +1,122 @@
+/* patrika */
+
+.ndpatrika {
+    width: 1350px;
+}
+.description{
+
+  color:#000;
+}
+.patrika {
+    padding: 25px;
+    padding-bottom: 5px;
+}
+#vantagens {
+    background-color: whitesmoke;
+}
+
+.patrikabox {
+    padding: 15px;
+}
+    .btn-facebook {
+        color: #fff !important;
+        background-color: darkblue;
+        border-color: rgba(0,0,0,0.2);
+        padding: 5px;
+        margin-top: 20px;
+    }
+    a.btn.btn-block.btn-social.btn-facebook:hover {
+        background-color: blue;
+    }
+    
+/* .btn-facebook:hover,.btn-facebook:focus,.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook
+{color:#fff;background-color:#30487b;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook
+{background-image:none} */
+
+
+.lib-row {
+    width: 100%;
+}
+
+.icon-round {
+    width: 80px;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    right: -38px;
+    top: 20px;
+    background-color: #2CAFFD;
+}
+
+.ozi-icon i {
+    font-size: 28px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+
+
+.libPanel {
+  margin-bottom: 20Px;
+}
+.libPanel img {
+  width: 100%;
+  background-color: transparent;
+}
+
+.libPanel .row,
+.libPanel .col-md-6 {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+
+.libRow {
+  padding: 0 20px 0 20px;
+}
+
+.libHeader {
+  background-color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px 0 20px;
+}
+
+.libHeaderseperator {
+  height: 2px;
+  width: 26px;
+  background-color: #2CAFFD;
+  margin: 7px 0 7px 0;
+}
+
+.libDesc {
+  position: relative;
+  height: auto;
+  display: block;
+  font-size: 13px;
+}
+.libDesc a{
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 20px;
+}
+
+.row-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.cardreligios {
+    display: block;
+}
+
+
