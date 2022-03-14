@@ -135,7 +135,7 @@ function Register() {
     if(user.userMobile.length !== 10){
       error = { ...error, userMobile: "true" };
     }
-    if(user.userPassword.length < 8){
+    if(user.userPassword.length <= 8){
       error = { ...error, userPassword: "true" };
     }
     if (user.userPassword !== user.userConfirmPassword) {
