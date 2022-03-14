@@ -2,4 +2,4 @@ Register.js
 
 import Dropzone from 'react-dropzone-uploader'    --->     npm install --save react-dropzone
 import { getDroppedOrSelectedFiles } from 'html5-file-selector'   ---->   npm i html5-file-selector
-
+install react icons   --->   npm i react-icons

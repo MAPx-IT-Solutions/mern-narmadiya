@@ -28,14 +28,11 @@ export const Navbar = () => {
                         <li className="nav-item">
                             <Link className={`${NavbarCss.navLinks} nav-link`} to="/contactus">संपर्क</Link>
                         </li>
-                        <li className={`nav-item dropdown ${NavbarCss.itemHasSatDownDown}`}>
-                            <Link className={`${NavbarCss.navLinks} nav-link dropdown-toggle`} to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Account
-                            </Link>
-                            <div className={`${NavbarCss.hasDropDown} dropdown-menu`} aria-labelledby="navbarDropdown">
-                                <Link className="nav-link change" to="/Login">Login</Link>
-                                <Link className={`${NavbarCss.navLinks} nav-link`} to="/Register">Register</Link>
-                            </div>
+                        <li className="nav-item">
+                            <Link className={`${NavbarCss.navLinks} nav-link`} to="/login">Login</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className={`${NavbarCss.navLinks} nav-link`} to="/register">Register</Link>
                         </li>
                     </ul>
                 </div>
