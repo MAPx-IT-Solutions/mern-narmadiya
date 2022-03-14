@@ -218,7 +218,6 @@ function Register() {
             <div className={`${RegisterCss.FormRow} row`}>
               <div className="col-md-8">
                 <div className={`${RegisterCss.formField} form-group `}>
-                  {/* <label className={`${RegisterCss.formLable}`} for="registerName">Full Name</label> */}
                   <input
                     type="text"
                     name="userFullName"
