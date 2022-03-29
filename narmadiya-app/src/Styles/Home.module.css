@@ -1,0 +1,51 @@
+.MarqueeTag{
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    color: firebrick;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -5px;
+    width: 100%;
+    direction: left;
+}
+.mainSection{
+    padding: 10px;
+}
+.newsBox{
+    background-color: antiquewhite;
+    padding: 5px;
+    height: 100%;
+    border-radius: 5px;
+}
+.newsBoxHeading{
+    border-radius:10px;
+    font-size: 17px;
+    font-weight: 100px;
+    text-align: center;
+    padding: 7px;
+    background: #d1721f;
+    background-image: -moz-linear-gradient(#f38c2b, #c17736);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #c17736),color-stop(1, #f38c2b));
+    color: #fff;
+}
+.newsField, .patricaField {
+    height: 50%;
+}
+.SlideWrapper{
+    height: 490px;
+}
+.slideImage{
+    height: auto;
+}
+.information{
+    font-family: 'Biryani', sans-serif;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.information p {
+    color: sienna;
+    font-size: large;
+}

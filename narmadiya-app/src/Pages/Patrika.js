@@ -3,9 +3,13 @@ import abhiruchi from '../img/abhiruchi.jpg'
 import ndlock from '../img/ndlok.jpg'
 import jagat from '../img/jagat.jpg'
 import patrikacss from '../Styles/patrika.module.css'
+import { Header } from '../components/header'
+import { Navbars } from '../components/Navbar'
 export const Patrika = () => {
     return (
         <> 
+        <Header/>
+        <Navbars/>
             <section id="vantagens">
                 <div className="container pt-5">
                     <div className= "row" >

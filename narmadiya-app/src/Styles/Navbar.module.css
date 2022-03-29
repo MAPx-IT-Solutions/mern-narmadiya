@@ -17,6 +17,15 @@
 .dropdown{
     background: #FBBB00;
 }
+
+.itemHasSatDownDown:hover .hasDropDown{
+    display: block !important;
+    background-image: linear-gradient(to bottom right, #ff8100, #efff00);
+}
+.hasDropDown .navLinks{
+    margin: 0px;
+    text-align: center;
+}
 .itemHasSatDownDown:hover .dropdown{
     display: block;
     position: absolute;
